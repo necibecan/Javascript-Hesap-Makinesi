@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Hesap Makinesi</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+    </head>
+ 
+    <body>
+        <div>
+            <input class="yazi" type="text"  id="yazi">
+        </div>
+        <div>
+            <table class="tablo">
+                <tr>
+                    <td><input id="temizle" class="operator" type="button" value="C" ></td>
+                    <td><input id="sil" class="operator" type="button" value="←" ></td>
+                    <td><input class="operator" type="button" value="/" onclick="yaz('/')"></td>
+                    <td><input class="operator" type="button" value="*" onclick="yaz('*')"></td>
+                </tr>
+                <tr>
+                    <td><input class="numara" type="button" value="7" onclick="yaz('7')"></td>
+                    <td><input class="numara" type="button" value="8" onclick="yaz('8')"></td>
+                    <td><input class="numara" type="button" value="9" onclick="yaz('9')"></td>
+                    <td><input class="operator" type="button" value="+" onclick="yaz('+')"></td>
+                </tr>
+                <tr>
+                    <td><input class="numara" type="button" value="4" onclick="yaz('4')"></td>
+                    <td><input class="numara" type="button" value="5" onclick="yaz('5')"></td>
+                    <td><input class="numara" type="button" value="6" onclick="yaz('6')"></td>
+                    <td><input class="operator" type="button" value="-" onclick="yaz('-')"></td>
+                </tr>
+                <tr>
+                    <td><input class="numara" type="button" value="1" onclick="yaz('1')"></td>
+                    <td><input class="numara" type="button" value="2" onclick="yaz('2')"></td>
+                    <td><input class="numara" type="button" value="3" onclick="yaz('3')"></td>
+                    <td rowspan="2"><input id="hesapla" class="esit" type="button" value="="></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="sıfır" type="button" value="0" onclick="yaz('0')"></td>
+                    <td><input class="numara" type="button" value="." onclick="yaz('.')"></td>
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>

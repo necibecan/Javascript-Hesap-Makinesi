@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.yazi
+{
+    margin: 5px;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.tablo
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 5px;
+}
+.numara
+{
+    height:50px;
+    width:50px;
+    font-size:25px;
+    cursor:pointer;
+    background:white;
+    color: black;
+    border: 1px solid black;
+}
+.sıfır
+{
+    height:50px;
+    width:100px;
+    font-size:25px;
+    cursor:pointer;
+    background:white;
+    color: black;
+    border: 1px solid black;
+}
+.numara:hover
+{
+    scale: 0.9;
+    border: 2.5px solid black;
+}
+.operator
+{
+    height:50px;
+    width:50px;
+    font-size:25px;
+    cursor:pointer;
+    background:lightcoral;
+    color:white;
+    border: 1px solid black;
+}
+.operator:hover
+{
+    scale: 0.9;
+    border: 2.5px solid black;
+}
+.esit
+{
+    height:100px;
+    width:50px;
+    font-size:25px;
+    cursor:pointer;
+    background: yellow;
+    color:black;
+    border: 1px solid black;
+}
+.esit:hover
+{
+    scale: 0.9;
+    border: 2.5px solid black;
+}
